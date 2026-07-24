@@ -1,0 +1,24 @@
+# Cape Analytics
+
+> Cape Analytics (now part of Moody's) is a geospatial property intelligence provider that applies computer vision and machine learning to aerial and satellite imagery, property records, and other data sources to produce inspection-quality condition and characteristic data for 100M+ residential and commercial structures across the US and Canada. Insights are delivered to insurers, lenders, and real estate investors via API, bulk/batch files, an Automated Property Condition Report (aPCR), and a customer web portal, as well as through platforms such as Guidewire and Duck Creek. There is no public self-service developer portal or open API specification; API access is provisioned through a gated onboarding flow.
+
+## Company
+- [Homepage](https://capeanalytics.com/): Company overview and property intelligence offering.
+- [Capabilities](https://capeanalytics.com/capabilities/): Geospatial analytics and product capabilities.
+- [Real Estate Property Intelligence](https://capeanalytics.com/real-estate-property-intelligence/): Property intelligence for origination, acquisition, and asset management.
+- [Blog](https://capeanalytics.com/blog/): Articles on property data, geospatial AI, and risk analytics.
+- [Resources](https://capeanalytics.com/resources/): Reports, guides, and product resources.
+- [Contact](https://capeanalytics.com/contact/): Sales and support contact.
+
+## Access
+- [Customer Portal / Sign In](https://client.capeanalytics.com/): Gated Auth0 onboarding and customer login (API access is provisioned here, not self-service).
+- [GitHub Organization](https://github.com/capeanalytics): Public org (open-source tool forks only; no first-party SDK published).
+
+## Legal
+- [Privacy Policy](https://capeanalytics.com/privacy-policy/)
+- [Terms of Use](https://capeanalytics.com/terms-of-use/)
+
+## Notes
+- Delivery channels: REST API, bulk/batch files, Automated Property Condition Report (aPCR), customer web application.
+- Distribution partners: Guidewire, Duck Creek (via their marketplaces/integrations).
+- No public OpenAPI specification, no public documentation host, and no published .well-known discovery documents were found as of 2026-07-18.

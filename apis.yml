@@ -1,22 +1,84 @@
 aid: cape-analytics
 name: Cape Analytics
-description: Cape Analytics is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cape Analytics (now part of Moody's) is a geospatial property intelligence
+  provider that applies computer vision and machine learning to high-resolution
+  aerial and satellite imagery, property records, and other novel data sources to
+  produce inspection-quality condition and characteristic data for over 100 million
+  residential and commercial structures across the United States and Canada. Its
+  insights — roof condition and material, swimming pools, solar panels, accessory
+  structures, tree overhang, wildfire and wind exposure, distance to hazards, and a
+  proprietary Liquidity Score — are delivered to insurance underwriters, lenders,
+  and real estate investors in under two seconds via API, batch/bulk files, an
+  Automated Property Condition Report (aPCR), and a customer web portal, as well as
+  through third-party platforms such as Guidewire and Duck Creek. Cape does not
+  publish a public, self-service developer portal or open API specification; API
+  access is provisioned to customers and partners through a gated onboarding flow.
 url: https://raw.githubusercontent.com/api-evangelist/cape-analytics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://capeanalytics.com/wp-content/uploads/2025/10/mdy_logo_rgb_white-reduced-centered.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcvc
+x-acquired-by: moodys
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Property Intelligence
+- Geospatial
+- Computer Vision
+- Machine Learning
+- Real Estate
+- Insurance
+- Underwriting
+- Aerial Imagery
+- Risk Analytics
 apis: []
+common:
+- type: Website
+  url: https://capeanalytics.com/
+- type: DeveloperPortal
+  url: https://capeanalytics.com/capabilities/
+- type: Blog
+  url: https://capeanalytics.com/blog/
+- type: Support
+  url: https://capeanalytics.com/contact/
+- type: Login
+  url: https://client.capeanalytics.com/
+- type: PrivacyPolicy
+  url: https://capeanalytics.com/privacy-policy/
+- type: TermsOfService
+  url: https://capeanalytics.com/terms-of-use/
+- type: GitHubOrganization
+  url: https://github.com/capeanalytics
+- type: WellKnown
+  url: well-known/cape-analytics-well-known.yml
+- type: DomainSecurity
+  url: security/cape-analytics-domain-security.yml
+- type: LLMsTxt
+  url: llms/cape-analytics-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

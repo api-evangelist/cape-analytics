@@ -2,14 +2,13 @@
   "repo": "cape-analytics",
   "feeds": [
     {
-      "source": "https://capeanalytics.com/capabilities/feed/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://capeanalytics.com/capabilities/",
-      "error": "HTTPError"
+      "feed_url": "https://capeanalytics.com/capabilities/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-09-06T19:17:18Z"
 }
